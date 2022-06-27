@@ -1,42 +1,7 @@
-/* The animation code */
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
-
-/* The element to apply the animation to time
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-}
-
-
-
-
-
-
-
-
-div {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-
-div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  animation-name: example;
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-fill-mode: backwards;
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: lightskyblue;
+  border: 2px solid white; font-size:20px;font-family:verdana;color:white;width:200
 }
