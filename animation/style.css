@@ -4,6 +4,7 @@
 
 body{
   margin:0;
+  overflow-x:hidden;
 }
 
 .container {
@@ -37,6 +38,17 @@ body{
   animation: spin 3s infinite linear
 }
 
+.runner {
+  background: burlywood;
+  width:250px;
+  height:50px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  animation: move 3s infinite
+
+}
+
 @keyframes pulse {
   0% {
     background: burlywood;
@@ -50,9 +62,23 @@ body{
 
 @keyframes spin {
   0% {
-    transform: rotate(0);
+    transform: rotate(0);scale(1);
   }
+  50% {
+    transform: rotate(180deg) scale(2);
+  }
+
   100% {
-    transform: rotate(360deg)
+    transform: rotate(360deg) scale(1);background:purple;
   }
+}
+
+@keyframes move {
+0% {
+  transform:translateX(-500px);
+}
+100%{transform:translateX(105vw);
+background:yellow
+}
+
 }
