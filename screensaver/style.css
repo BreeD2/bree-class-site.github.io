@@ -3,53 +3,106 @@
 }
 
 body{
-  margin:0;
+  position:fixed;
+  height:100vh;
+  background: ghostwhite;
+
 }
+
+
 
 .container {
   background: ghostwhite;
-  height:100vh;
-  display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.triangle-up {
-	width: 0;
-	height: 0;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-bottom: 50px solid grey;
-}
-
-.triangle-down {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 25px solid #555;
+  margin:0
 
 }
 
-.square {
-  height: 50px;
-  width: 50px;
-  background-color: grey;
+.main-circle {
+  height: 25px;
+  width: 25px;
+  background-color: ghostwhite;
+  border-radius: 50%;
   animation-name: pulse;
   animation-duration:1s;
   animation-iteration-count:infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  padding-bottom: 25px;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin-top:-5%;
+  margin-left: 5%;
+
+}
+.first-platform {
+  margin-top: 20%;
+  margin-left: -20%;
+	width: 65px;
+	height: 15px;
+	background-color:red;
+
+}
+.second-platform {
+  margin-top: 15%;
+  margin-left: 47%;
+	width: 70px;
+	height: 15px;
+  transform: rotate(50deg);
+	background-color:red
+}
+.first-block {
+  margin-top: 100%;
+  margin-left: 60%;
+	width: 15px;
+	height: 50px;
+	background-color:red
+}
+
+
+.circle {
+  margin-top:10px;
+  height: 50px;
+  width: 50px;
+  background-color: ghostwhite;
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  padding-bottom: 25px;
+
+
+
 }
 
 @keyframes pulse {
   0% {
-    background: grey;
-    transform:scale(1);
+    background: blue;
+
+  }
+  2% {
+    background: blue;
+    transform:translate(0px, 19px);
+
+  }
+  25% {
+    transform:translate(60px, 22px)
+
+
+  }
+  50% {
+    transform:translate(60px, 22px)
+  }
+  75% {
+
+    transform:rotate(3);
+    transform:translate(80px, 100px)
+
   }
   100% {
-    background: pink;
-    transform:scale(2);
+    background: blue;
+    rotate(360deg);
   }
 }
 
@@ -58,6 +111,7 @@ body{
     transform: rotate(0);
   }
   100% {
-    transform: rotate(360deg)
+    transform: rotate(360deg);
+    transform:scale(2)
   }
 }
