@@ -742,11 +742,11 @@ body{
 
 
   94% {
-    transform:translate(1380px,340px)
+    transform:translate(1380px,335px)
     ; rotate:(90deg)
   }
   100% {
-    transform:translate(1900px,340px)
+    transform:translate(1900px,335px)
     ; rotate:(90deg)
   }
 }
