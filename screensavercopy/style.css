@@ -373,7 +373,7 @@ max-height: 100%;
 .thirty-five-block {
   margin-top:-65;
   margin-left: 1961%;
-	width: 180%;
+	width: 380%;
 	height: 20px;
 	background-color:red;
   transform: rotate(0deg);
@@ -765,7 +765,7 @@ max-height: 100%;
     ; rotate:(90deg)
   }
   100% {
-    transform:translate(1460px,340px)
+    transform:translate(1600px,340px)
     ; rotate:(90deg)
   }
 }
