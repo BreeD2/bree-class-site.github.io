@@ -354,7 +354,7 @@ body{
 .thirty-five-block {
   margin-top:-65;
   margin-left: 1961%;
-	width: 380%;
+	width: 600%;
 	height: 20px;
 	background-color:red;
   transform: rotate(0deg);
@@ -746,7 +746,7 @@ body{
     ; rotate:(90deg)
   }
   100% {
-    transform:translate(1600px,340px)
+    transform:translate(1900px,340px)
     ; rotate:(90deg)
   }
 }
