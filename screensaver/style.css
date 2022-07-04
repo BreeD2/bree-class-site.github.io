@@ -2,28 +2,41 @@
   box-sizing: border-box;
 }
 
+
+
 body{
-  position:fixed;
-  height:1000vh;
+  position: fixed;
+  width:100%;
+  height: 100%;
   background: midnightblue;
   animation-name: nightchange;
   animation-duration:10s;
   animation-iteration-count:infinite;
   animation-direction: normal;
   animation-timing-function: ease-in;
+  width: fit-content;
+  block-size: fit-content;
+  min-height: 100%;
+  max-width: 100%;
+
 
 }
 
 
-
 .container {
   background: midnightblue;
-  margin:0;
+  margin:auto;
   animation-name: nightchange;
   animation-duration:10s;
   animation-iteration-count:infinite;
   animation-direction: normal;
   animation-timing-function: ease-in;
+
+  block-size: fit-content;
+  object-fit: contain;
+
+
+
 
 }
 
@@ -341,7 +354,7 @@ body{
 .thirty-five-block {
   margin-top:-65;
   margin-left: 1961%;
-	width: 150%;
+	width: 180%;
 	height: 20px;
 	background-color:red;
   transform: rotate(0deg);
@@ -598,6 +611,9 @@ body{
         }
 
 
+
+
+
 @keyframes pulse {
   0% {
 
@@ -726,11 +742,11 @@ body{
 
 
   94% {
-    transform:translate(1380px,344px)
+    transform:translate(1380px,340px)
     ; rotate:(90deg)
   }
   100% {
-    transform:translate(1396px,344px)
+    transform:translate(1460px,340px)
     ; rotate:(90deg)
   }
 }
