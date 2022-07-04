@@ -5,22 +5,32 @@
 body{
   position:fixed;
   height:1000vh;
-  background: black;
+  background: midnightblue;
+  animation-name: nightchange;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
 
 }
 
 
 
 .container {
-  background: black;
-  margin:0
+  background: midnightblue;
+  margin:0;
+  animation-name: nightchange;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
 
 }
 
 .main-circle {
   height: 25px;
   width: 25px;
-  background-color: pink;
+  background-color: gold;
   border-radius: 50%;
   animation-name: pulse;
   animation-duration:10s;
@@ -346,13 +356,249 @@ body{
   transform: rotate(0deg);
 }
 
+.star-container {
+  background: black;
+  margin:0
+
+}
+.star-one {
+  margin-top:-200;
+  margin-left: 1600%;
+  width: 5px;
+  height: 5px;
+  background: ghostwhite;
+  border-radius: 50%;
+  animation-name: sparkle;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+    }
+
+
+.star-three {
+  margin-top:100;
+  margin-left: 1500%;
+  width: 5px;
+  height: 5px;
+  background: ghostwhite;
+  border-radius: 50%;
+  animation-name: sparkle;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+
+    }
+
+    .star-four {
+      margin-top:100;
+      margin-left: 1300%;
+      width: 5px;
+      height: 5px;
+      background: ghostwhite;
+      border-radius: 50%;
+      animation-name: sparkle;
+      animation-duration:10s;
+      animation-iteration-count:infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in;
+
+        }
+        .star-five {
+          margin-top:200;
+          margin-left: 1230%;
+          width: 5px;
+          height: 5px;
+          background: ghostwhite;
+          border-radius: 50%;
+          animation-name: sparkle;
+          animation-duration:10s;
+          animation-iteration-count:infinite;
+          animation-direction: normal;
+          animation-timing-function: ease-in;
+            }
+
+            .star-six {
+              margin-top:70;
+              margin-left: 1600%;
+              width: 5px;
+              height: 5px;
+              background: ghostwhite;
+              border-radius: 50%;
+              animation-name: sparkle;
+              animation-duration:10s;
+              animation-iteration-count:infinite;
+              animation-direction: normal;
+              animation-timing-function: ease-in;
+                }
+                .star-seven {
+                  margin-top:30;
+                  margin-left: 1900%;
+                  width: 5px;
+                  height: 5px;
+                  background: ghostwhite;
+                  border-radius: 50%;
+                  animation-name: sparkle;
+                  animation-duration:10s;
+                  animation-iteration-count:infinite;
+                  animation-direction: normal;
+                  animation-timing-function: ease-in;
+                    }
+                    .star-eight {
+                      margin-top:-350;
+                      margin-left: 1800%;
+                      width: 5px;
+                      height: 5px;
+                      background: ghostwhite;
+                      border-radius: 50%;
+                      animation-name: sparkle;
+                      animation-duration:10s;
+                      animation-iteration-count:infinite;
+                      animation-direction: normal;
+                      animation-timing-function: ease-in;
+                        }
+
+.star-nine {
+  margin-top:-300;
+  margin-left: 1900%;
+  width: 5px;
+  height: 5px;
+  background: ghostwhite;
+  border-radius: 50%;
+  animation-name: sparkle;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+    }
+    .star-ten {
+      margin-top:30;
+      margin-left: 1220%;
+      width: 5px;
+      height: 5px;
+      background: ghostwhite;
+      border-radius: 50%;
+      animation-name: sparkle;
+      animation-duration:10s;
+      animation-iteration-count:infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in;
+        }
+        .star-eleven {
+          margin-top:45;
+          margin-left: 900%;
+          width: 5px;
+          height: 5px;
+          background: ghostwhite;
+          border-radius: 50%;
+          animation-name: sparkle;
+          animation-duration:10s;
+          animation-iteration-count:infinite;
+          animation-direction: normal;
+          animation-timing-function: ease-in;
+            }
+            .star-twelve {
+              margin-top:48;
+              margin-left: 700%;
+              width: 5px;
+              height: 5px;
+              background: ghostwhite;
+              border-radius: 50%;
+              animation-name: sparkle;
+              animation-duration:10s;
+              animation-iteration-count:infinite;
+              animation-direction: normal;
+              animation-timing-function: ease-in;
+                }
+                .star-thirthteen {
+                  margin-top:120;
+                  margin-left: 920%;
+                  width: 5px;
+                  height: 5px;
+                  background: ghostwhite;
+                  border-radius: 50%;
+                  animation-name: sparkle;
+                  animation-duration:10s;
+                  animation-iteration-count:infinite;
+                  animation-direction: normal;
+                  animation-timing-function: ease-in;
+                    }
+                    .star-fourthteen {
+                      margin-top:-280;
+                      margin-left: 520%;
+                      width: 5px;
+                      height: 5px;
+                      background: ghostwhite;
+                      border-radius: 50%;
+                      animation-name: sparkle;
+                      animation-duration:10s;
+                      animation-iteration-count:infinite;
+                      animation-direction: normal;
+                      animation-timing-function: ease-in;
+
+                        }
+                        .star-fifthteen {
+                          margin-top:380;
+                          margin-left: 300%;
+                          width: 5px;
+                          height: 5px;
+                          background: ghostwhite;
+                          border-radius: 50%;
+                          animation-name: sparkle;
+                          animation-duration:10s;
+                          animation-iteration-count:infinite;
+                          animation-direction: normal;
+                          animation-timing-function: ease-in;
+                            }
+                            .star-sixteen {
+                              margin-top:180;
+                              margin-left: 400%;
+                              width: 5px;
+                              height: 5px;
+                              background: ghostwhite;
+                              border-radius: 50%;
+                              animation-name: sparkle;
+                              animation-duration:10s;
+                              animation-iteration-count:infinite;
+                              animation-direction: normal;
+                              animation-timing-function: ease-in;
+                                }
+                                .star-seventeen {
+                                  margin-top:50;
+                                  margin-left: 800%;
+                                  width: 5px;
+                                  height: 5px;
+                                  background: ghostwhite;
+                                  border-radius: 50%;
+                                  animation-name: sparkle;
+                                  animation-duration:10s;
+                                  animation-iteration-count:infinite;
+                                  animation-direction: normal;
+                                  animation-timing-function: ease-in;
+                                    }
+
+.star-nineteen {
+  margin-top:-340;
+  margin-left: 100%;
+  width: 5px;
+  height: 5px;
+  background: ghostwhite;
+  border-radius: 50%;
+  animation-name: sparkle;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+    }
+
 @keyframes pulse {
   0% {
-    background: yellow
+
 
   }
   1% {
-    background: yellow;
+
     transform:translateY(14px);
 
   }
@@ -505,6 +751,25 @@ body{
   }
 
 }
+@keyframes sparkle {
+  0% {
 
+
+  }
+  55% {
+    background: yellow;
+    transform:scale(1.5);
+  }
+
+}
+@keyframes nightchange {
+  0% {
+
+
+  }
+  50% {
+    background: black;
+
+  }
 
 }
