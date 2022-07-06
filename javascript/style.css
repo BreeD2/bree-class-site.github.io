@@ -2,10 +2,33 @@
   box-sizing: border-box;
 }
 
-.active {
-  width: 100%;
+
+.sidebar {
+  width: 400px;
+  min-height: : 500px;
   padding: 25px;
-  background-color: coral;
-  color: white;
   font-size: 25px;
+  position: fixed;
+  color:white;
+  top:0;
+  background-color: lightslategray;
+  right:-400px;
+  transition: .5s
+
+}
+.active {
+right: 0;
+
+}
+
+
+button {
+  background: mediumseagreen;
+  padding:25px;
+  border: 1px solid darkgreen;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linen;
 }
