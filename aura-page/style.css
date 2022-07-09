@@ -2,16 +2,24 @@
   box-sizing: border-box;
 }
 
-body {
-  background: darksalmon;
+body,html {
+  background: lightskyblue;
 }
 
-
-
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.welcome {
+  color: white;
+  font-size:15px;
+  font-family: arial;
+  text-align: center;
+  margin-top: 0%;
+  background-color: black;
+  text-shadow: 1px 1px black;
+  width: 30%;
+  height:15%;
+  border-radius: 30%;
+  margin-bottom: 50%;
+  padding: 8px 12px;
+  position: absolute;
 }
 
 /* Caption text */
@@ -26,11 +34,81 @@ body {
   bottom: 450px;
   width: 20%;
   text-align: center;
-  right:5%;
+  right:15%;
   font-family: arial;
+  margin-top: 100%;
+}
+
+.w3-round {
+
+  border: 2px black solid;
+  background-color: blue;
+  animation-name: load;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: sticky;
+
+}
+
+.w3-roundsound {
+
+  width:30%;
+  animation-name: loaded;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: sticky;
+
+}
+
+.w3-round2 {
+border: 2px black solid;
+background-color: pink;
+animation-name: talk;
+animation-duration: 2s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+position: sticky;
+
 }
 
 
+.w3-round3 {
+border: 2px black solid;
+background-color: yellow;
+animation-name: talk;
+animation-duration: 2s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+position: sticky;
+
+}
+
+
+.w3-roundsound2 {
+
+
+  width:30%;
+  animation-name: talkaudio;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: sticky;
+
+}
+
+.w3-roundsound3 {
+
+
+  width:30%;
+  animation-name: talkaudio;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: sticky;
+
+}
 .responsive {
   width: 100%;
   height: auto;
@@ -48,17 +126,7 @@ x
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+
 
 .active, .dot:hover {
   background-color: #717171;
@@ -76,26 +144,20 @@ x
 }
 
 .mySlides {
-  top: 100%;
-  left: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: static;
+  margin-top: 0%;
+  top: 50%;
+  left: 200%;
+  width:75%;
+  border: 2px solid black;
+  border-style:2px solid;
+  border-color: black;
 
 }
-}
-
-
-button {
-  background-color: #yellow; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-
-
 
 <style>
 .zoom {
@@ -120,7 +182,7 @@ button {
   animation: spin 2s linear infinite;
 }
 
-$('[lang="es"]').display();
+$('[lang="en"]').display();
 
 $('#switch-lang').click(function() {
   $('[lang="es"]').toggle();
@@ -140,10 +202,142 @@ h1 {
   100% { transform: rotate(360deg); }
 }
 
+<style>
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
 
 
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+
+<div class="zoom"></div>
+
+.mySlides fade {
+  max-width: 1200px;
+  max-height: 1200px;
+}
+
+/* CSS talk bubble */
+.talk-bubble {
+
+  left: 200px;
+  position: absolute;
+	width: 250px;
+	height: 60px;
+	background-color: lightyellow;
+  font-family: arial;
+  font-size: 15px;
+  text-align: center;
+  opacity: 0%;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  margin-top: 120px;
+  animation-timing-function: ease-in;
+  border-radius: 10%;
+  animation-fill-mode: forwards;
+
+}
 
 
+@keyframes load{
+  0% {opacity: 30%transform:translate(13px,-250px)
+    ; rotate:(90deg)}
+
+  50% {transform:translate(13px,-250px)
+    ; rotate:(90deg)}
+
+  100% {transform:translate(13px,-250px)
+
+  }
+}
+
+@keyframes loaded{
+  0% {opacity: 30%;transform:translate(-116px,-280px)
+    ; rotate:(90deg)}
+
+  50% {transform:translate(-116px,-280px)
+    ; rotate:(90deg)}
+
+  100% {transform:translate(-116px,-280px)
+
+  }
+}
+
+
+@keyframes talk{
+  0% {opacity: 30%;transform:translate(-244px,-500px)
+    ; rotate:(90deg);opacity: 60%}
+
+  50% {transform:translate(-248px,-500px)
+    ; rotate:(90deg);opacity: 60%}
+
+  100% {transform:translate(-248px,-500px)
+
+  }
+}
+
+@keyframes talkaudio{
+  0% {opacity: 30%;transform:translate(-244px,-500px)
+    ; rotate:(90deg);opacity: 60%}
+
+  50% {transform:translate(-375px,-660px)
+    ; rotate:(90deg);opacity: 60%}
+
+  100% {transform:translate(-375px,-660px)
+
+  }
+}
+
+
+@keyframes world{
+  0% {opacity: 30%;transform:translate(-244px,-500px)
+    ; rotate:(90deg);opacity: 60%}
+
+  50% {transform:translate(-248px,-500px)
+    ; rotate:(90deg);opacity: 60%}
+
+  100% {transform:translate(-248px,-500px)
+
+  }
+}
+@keyframes worldaudio{
+  0% {opacity: 30%;transform:translate(-244px,-500px)
+    ; rotate:(90deg);opacity: 60%}
+
+  50% {transform:translate(-375px,-660px)
+    ; rotate:(90deg);opacity: 60%}
+
+  100% {transform:translate(-375px,-660px)
+
+  }
+}
 
 </style>
 
