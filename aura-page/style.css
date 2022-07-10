@@ -37,6 +37,8 @@ body,html {
   right:15%;
   font-family: arial;
   margin-top: 100%;
+ max-width: 400px;
+ height: auto;
 }
 
 .w3-round {
@@ -48,6 +50,9 @@ body,html {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   position: sticky;
+ max-width: 400px;
+ height: auto;
+   width: 100%;
 
 }
 
@@ -59,6 +64,10 @@ body,html {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   position: sticky;
+  width: 100%;
+   max-width: 400px;
+   height: auto;
+
 
 }
 
@@ -70,6 +79,9 @@ animation-duration: 2s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
 position: sticky;
+width: 100%;
+ max-width: 400px;
+ height: auto;
 
 }
 
@@ -82,6 +94,9 @@ animation-duration: 2s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
 position: sticky;
+width: 100%;
+ max-width: 400px;
+ height: auto;
 
 }
 
@@ -374,25 +389,25 @@ h1 {
 }
 
 @keyframes plane{
-  0% {opacity: 30%;transform:translate(478px,-240px)
+  0% {opacity: 30%;transform:translate(472px,-240px)
     ; rotate:(90deg);opacity: 60%}
 
-  50% {transform:translate(478px,-240px)
+  50% {transform:translate(472px,-240px)
     ; rotate:(90deg);opacity: 60%}
 
-  100% {transform:translate(478px,-240px)
+  100% {transform:translate(472px,-240px)
 
   }
 }
 
 @keyframes planeaudio{
-  0% {opacity: 30%;transform:translate(353px,-270px)
+  0% {opacity: 30%;transform:translate(350px,-270px)
     ; rotate:(90deg);opacity: 60%}
 
-  50% {transform:translate(353px,-270px)
+  50% {transform:translate(350px,-270px)
     ; rotate:(90deg);opacity: 60%}
 
-  100% {transform:translate(353px,-270px)
+  100% {transform:translate(350px,-270px)
 
   }
 }
