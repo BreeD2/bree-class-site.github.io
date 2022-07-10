@@ -374,25 +374,25 @@ h1 {
 }
 
 @keyframes plane{
-  0% {opacity: 30%;transform:translate(473px,-240px)
+  0% {opacity: 30%;transform:translate(478px,-240px)
     ; rotate:(90deg);opacity: 60%}
 
-  50% {transform:translate(473px,-240px)
+  50% {transform:translate(478px,-240px)
     ; rotate:(90deg);opacity: 60%}
 
-  100% {transform:translate(473px,-240px)
+  100% {transform:translate(478px,-240px)
 
   }
 }
 
 @keyframes planeaudio{
-  0% {opacity: 30%;transform:translate(340px,-270px)
+  0% {opacity: 30%;transform:translate(353px,-270px)
     ; rotate:(90deg);opacity: 60%}
 
-  50% {transform:translate(340px,-270px)
+  50% {transform:translate(353px,-270px)
     ; rotate:(90deg);opacity: 60%}
 
-  100% {transform:translate(340px,-270px)
+  100% {transform:translate(353px,-270px)
 
   }
 }
