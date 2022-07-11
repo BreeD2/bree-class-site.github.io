@@ -9,7 +9,8 @@ body,html {
 }
 
 .google_translate_element {
-  right:60%;
+  left:60%;
+  position: absolute;
 }
 
 
