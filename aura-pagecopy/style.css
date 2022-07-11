@@ -452,18 +452,6 @@ font-size: 10px;
 .content{
     overflow:hidden;
 }
-.zoom:hover {
-    transform:scale(2);
-    transform-origin: left bottom;
-}
-
-
-
-
-.zoom {
-    transition:1s ease-in-out;
-    width:200px;
-}
 
 
 
