@@ -33,7 +33,7 @@ body,html {
 .w3-round {
 
   border: 2px black solid;
-  background-color: blue;
+  background-color: dodgerblue;
 
   position: absolute;
  max-width: 12%;
@@ -68,7 +68,7 @@ body,html {
 
 .w3-round2 {
 border: 2px black solid;
-background-color: pink;
+background-color: hotpink;
 animation-name: tal;
 position:  absolute;
 max-width: 12%;
@@ -89,7 +89,7 @@ object-position:  center;
 
 .w3-round4 {
 border: 2px black solid;
-background-color: green;
+background-color: olivedrab;
 animation-name: plan;
 animation-duration: 2s;
 animation-iteration-count: 1;
@@ -110,7 +110,7 @@ object-position:  center;
 }
 .w3-round3 {
 border: 2px black solid;
-background-color: yellow;
+background-color: navajowhite;
 animation-name: worl;
 animation-duration: 2s;
 animation-iteration-count: 1;
@@ -181,7 +181,7 @@ object-fit: scale-down;
 .w3-round5 {
 
   border: 2px black solid;
-  background-color: purple;
+  background-color: mediumorchid;
   position: absolute;
   max-width: 400px;
   max-height: 150px;
@@ -212,7 +212,7 @@ object-fit: scale-down;
 .w3-round6{
 
   border: 2px black solid;
-  background-color: orange;
+  background-color: lightsalmon;
   position: absolute;
   max-width: 400px;
   max-height: 150px;
@@ -249,7 +249,7 @@ object-fit: scale-down;
 
 .w3-round7 {
 border: 2px black solid;
-background-color: red;
+background-color: firebrick;
 animation-name: worl;
 animation-duration: 2s;
 animation-iteration-count: 1;
@@ -285,7 +285,7 @@ object-fit: scale-down;
 
 .w3-round8 {
 border: 2px black solid;
-background-color: grey;
+background-color: gainsboro;
 animation-name: plan;
 animation-duration: 2s;
 animation-iteration-count: 1;
@@ -420,7 +420,7 @@ object-position:  center;
 .interesting {
 color:black;
 font-family: arial;
-background-color: orange;
+background-color: lightsalmon;
 flex-wrap: wrap;
 left:20%;
 width:16%;
