@@ -8,6 +8,13 @@ body,html {
 
 }
 
+div {
+    cursor:none;
+    color: red;
+}
+
+
+
 .google_translate_element {
   left:60%;
   position: absolute;
