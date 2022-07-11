@@ -148,8 +148,8 @@ object-fit: scale-down;
 }
 
 .google_translate_element {
-  align-content: center;
-  display: block;
+
+  right:50%;
   position: absolute;
 }
 
