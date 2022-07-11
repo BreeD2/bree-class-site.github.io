@@ -466,12 +466,6 @@ font-size: 10px;
 }
 
 
-$('[lang="en"]').display();
-
-$('#switch-lang').click(function() {
-  $('[lang="es"]').toggle();
-  $('[lang="en"]').toggle();
-});
 
 
 
