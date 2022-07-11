@@ -149,6 +149,8 @@ object-fit: scale-down;
 
 .text/javascript {
   align-content: center;
+  display: block;
+  position: absolute;
 }
 
 
@@ -374,7 +376,6 @@ object-position:  center;
   margin-right: auto;
   display: block;
   position: absolute;
-  position: static;
   margin-top: 0%;
   top: 50%;
   left: 200%;
