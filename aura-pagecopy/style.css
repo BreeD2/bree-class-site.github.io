@@ -150,6 +150,7 @@ object-fit: scale-down;
 .google_translate_element {
 
   position: absolute;
+  left: 50%;
 }
 
 
