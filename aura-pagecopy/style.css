@@ -147,6 +147,11 @@ object-fit: scale-down;
 
 }
 
+.text/javascript {
+  align-content: center;
+}
+
+
 .w3-roundsound3 {
 
   position: absolute;
