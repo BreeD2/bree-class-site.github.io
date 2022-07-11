@@ -8,6 +8,10 @@ body,html {
 
 }
 
+.google_translate_element {
+  right:60%;
+}
+
 
 /* Caption text */
 .text {
@@ -147,9 +151,7 @@ object-fit: scale-down;
 
 }
 
-.text/javascript {
-  align-content: center;
-}
+
 
 
 .w3-roundsound3 {
@@ -374,7 +376,7 @@ object-position:  center;
   margin-right: auto;
   display: block;
   position: absolute;
-
+  position: static;
   margin-top: 0%;
   top: 50%;
   left: 200%;
