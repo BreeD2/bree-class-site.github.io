@@ -2,14 +2,66 @@
   box-sizing: border-box;
 }
 
-body,html {
+body {
+  margin: 0;
   background: white;
 
 
 }
 
+w3-top {
+  font-family: helvetica;
+}
 
-.headingone {
-  font-family: arial;
-  font-size: 30px;
+.w3-container {
+  background-color: blue;
+
+}
+
+.w3-container {
+  background-color: yellow;
+}
+
+.w3-cell row {
+  width:50%;
+  height: 40%;
+}
+
+header class{
+background-color: yellow;
+}
+h1 {
+
+}
+img {
+
+}
+
+.w3-button {
+  background-color: yellow;
+}
+
+}
+/* The navbar container */
+.topnav {
+  overflow: scroll;
+  background-color: #333;
+  font-family: helvetica;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
