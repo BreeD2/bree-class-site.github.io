@@ -9,6 +9,10 @@ body {
 
 }
 
+img {
+  max-width:100%;
+}
+
 w3-top {
   font-family: helvetica;
 }
