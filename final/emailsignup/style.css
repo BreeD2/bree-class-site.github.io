@@ -4,5 +4,42 @@
 
 
 body {
-background: white;
+background: lightgoldenrodyellow;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 3px solid black; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 10px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+}
+
+.form-popup {
+  padding: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 14%;
+  color:black;
+  t
+
+}
+
+.form-popup
+
+button {
+  background-color: moccasin;
 }

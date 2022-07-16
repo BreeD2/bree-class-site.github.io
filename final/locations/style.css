@@ -5,4 +5,56 @@
 
 body {
 background: white;
+margin: auto;
+
+
+}
+
+.hours {
+  text-align: center;
+  position:relative;
+  overflow: auto;
+  padding-bottom:20px;
+  color:black;
+  margin-top: 10%;
+
+}
+
+.time {
+  display: inline-block;
+ text-align: center;
+ list-style-position: inside;
+}
+
+.header {
+  font-size: 50px;
+  color: black;
+  padding-top:14%;
+  text-align: center;
+  position:relative;
+  overflow: auto;
+  padding-bottom:20px
+}
+
+.responsive-map-container {
+    position: relative;
+
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: auto;
+    padding-left: 40%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%:
+}
+
+.responsive-map-container iframe,
+.responsive-map-container object,
+.responsive-map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

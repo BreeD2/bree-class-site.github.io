@@ -8,6 +8,8 @@
    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 <link rel="stylesheet"href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <style>
 </style>
 </head>
@@ -31,24 +33,279 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <a href="..//index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
       <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Menu</a>
       <a href="..//cateringmenu/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white-font-family-helvetica">Catering Menu</a>
-      <a href="..//locations/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Locations</a>
+      <a href="..//locations/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Locations & Hours</a>
       <a href="..//about/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
       <a href="..//contact/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
       <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Email Signup</a>
+      <a href="..//checkout/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Checkout</a>
+
+<div class="topnav-right">
+      <a href="..//shoppingcart/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="material-icons"style="font-size:18px;text-align:center;margin:5%;navbar-right">shopping_cart</i></button></a>
+</div>
 
     </div>
 
     <!-- Navbar on small screens -->
+
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a href="..//shoppingcart/index.html" class="w3-bar-item w3-button w3-padding-large">Shopping Cart<i class="material-icons"style="font-size:18px;text-align:center;margin:5%;navbar-right">shopping_cart</i></a>
       <a href="..//index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
       <a href="..//cateringmenu/index.html" class="w3-bar-item w3-button w3-padding-large">Catering Menu</a>
-      <a href="..//locations/index.html" class="w3-bar-item w3-button w3-padding-large">Locations</a>
+      <a href="..//locations/index.html" class="w3-bar-item w3-button w3-padding-large">Locations & Hours</a>
       <a href="..//about/index.html" class="w3-bar-item w3-button w3-padding-large">About</a>
         <a href="..//contact/index.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
           <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-padding-large">Email Signup</a>
 
-    </div>
+
+
   </div>
+</div>
+
+  <!-- Head Container -->
+
+
+
+
+  <!-- Menu Container -->
+  <div class="w3-container w3-black w3-padding-64 w3-xlarge"style="margin-top:-4%;" id="menu">
+    <div class="w3-content">
+
+      <h1 class="w3-center w3-jumbo" style="margin-top:54px;margin-top:10%">MENU</h1>
+
+
+      <div class="w3-row w3-center w3-border w3-border-dark-grey">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'appetizers');" id="myLink">
+            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Appetizers</div>
+          </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'entrées');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Entrées</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'sides');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-red w3-border: 5px-solid-red;">Sides</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'kidsmenu');">
+          <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Kids Menu
+          </div>
+        </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'desserts');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Desserts</div>
+      </a>
+    <a href="javascript:void(0)" onclick="openMenu(event, 'beverages');">
+      <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Beverages
+      </div>
+    </a>
+  </div>
+
+      <div id="appetizers" class="w3-container menu w3-padding-32 w3-white w3-blue">
+        <h1><b>Mozzarella Sticks<b><span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+        <hr>
+
+        <h1><b>Breadsticks</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+        <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+        <hr>
+
+        <h1><b>Buffalo Wings</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p><a name="chapter4"></a>
+        <hr>
+
+        <h1><b>Nachos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+        <hr>
+
+        <h1><b>Onion Rings</b> <span class="w3-tag w3-red w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+        <hr>
+
+        <h1><b>Bacon Rings</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+        <h1><b>Chilli Prawns</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+
+        <h1><b>Chicken Pasta</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+        <h1><b>Seekh Kebabs</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+        <h1><b>Honey Chilli Potato</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+      </div>
+
+
+
+
+
+      <div id="entrées" class="w3-container menu w3-padding-32 w3-white w3-font-size">
+        <h1><b>Hamburger</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+        <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+        <hr>
+        <h1><b>Cheeseburger</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+        <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+        <h1><b>Crispy Chicken Sandwich</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+        <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+        <hr>
+        <h1><b>Cheesesteak</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
+        <p class="w3-text-grey">Ravioli filled with cheese</p>
+        <hr>
+
+        <h1><b>Chicken & Waffles</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
+        <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+        <hr>
+
+        <h1><b>Hot Dogs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Lasagna</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Chilli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Ribs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Steak</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Tacos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Chicken Tenders</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Fried Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Buffalo Wings</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Clam Chowder</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+        <h1><b>Spaghetti</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+
+      </div>
+
+
+
+
+<div id="Sides" class="w3-container menu w3-padding-32 w3-white">
+        <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+        <p class="w3-text-grey">Ask the waiter</p>
+        <hr>
+
+        <h4><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h4>
+        <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+        <hr>
+
+        <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+        <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+        <hr>
+
+        <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+        <p class="w3-text-grey">Tomatoes and mozzarella</p>
+      </div>
+
+  <div id="sides" class="w3-container menu w3-padding-32 w3-white w3-font-size">
+
+
+
+    <h1><b>Baked Beans</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Baked Potatoes</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Broccoli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Cauliflower</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Colesaw</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Bread Roll</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>French Fries</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Steak Fries</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Green Beans</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Macaroni & Cheese</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Mashed Potatoes</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Salad</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+    <h1><b>Tater Tots</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+    </div>
+
+<div id="kidsmenu" class="w3-container menu w3-padding-32 w3-white w3-font-size">
+
+  <h1><b>Chicken Tenders</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+  <p class="w3-text-grey">Tomatoes and mozzarella</p>
+  </div>
+
+  <h1><b>Burgers</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+  <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+  <h1><b>Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+  <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+  <h1><b>Grilled Cheese</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+  <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+  <h1><b>Chicken Nuggets</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+  <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+  <h1><b>Hot Dogs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+  <p class="w3-text-grey">Tomatoes and mozzarella</p>
+
+  <h1><b>Quesadilla</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+  <p class="w3-text-grey">Tomatoes and mozzarella</p>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+</div>
+
+
+
+
 
   <script>
 // Used to toggle the menu on small screens when clicking on the menu button
@@ -62,8 +319,29 @@ function myFunction() {
 }
 </script>
 
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+
 </body>
 </html>
+
 
 
 
@@ -77,6 +355,7 @@ function myFunction() {
    const d = new Date(2022, 7, 11, 23, 56);
    document.getElementById("demo").innerHTML = d;
    </script>
+
 
 
 

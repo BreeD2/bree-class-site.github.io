@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en-US">
+<html>
+ <head>
+   <title>Final</title>
+   <center>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+   <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet"href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+</style>
+</head>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart"></i>
+          <b>4</b>
+        </span>
+      </h4>
+      <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+      <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+      <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+      <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+    </div>
+  </div>
+</div>
+
+
+
+</script>
+
+</body>
+</html>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="..//index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Menu</a>
+    <a href="..//cateringmenu/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white-font-family-helvetica">Catering Menu</a>
+    <a href="..//locations/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Locations & Hours</a>
+    <a href="..//about/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="..//contact/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+    <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Email Signup</a>
+
+<div class="topnav-right">
+    <a href="..//shoppingcart/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="material-icons"style="font-size:18px;text-align:center;margin:5%;navbar-right">shopping_cart</i></button></a>
+</div>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="..//shoppingcart/index.html" class="w3-bar-item w3-button w3-padding-large">Shopping Cart<i class="material-icons"style="font-size:18px;text-align:center;margin:5%;navbar-right">shopping_cart</i></a>
+    <a href="..//index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="..//cateringmenu/index.html" class="w3-bar-item w3-button w3-padding-large">Catering Menu</a>
+    <a href="..//locations/index.html" class="w3-bar-item w3-button w3-padding-large">Locations & Hours</a>
+    <a href="..//about/index.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+      <a href="..//contact/index.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+        <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-padding-large">Email Signup</a>
+
+
+
+</div>
+</div>
+
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+var x = document.getElementById("navDemo");
+if (x.className.indexOf("w3-show") == -1) {
+  x.className += " w3-show";
+} else {
+  x.className = x.className.replace(" w3-show", "");
+}
+}
+</script>
+
+   <script src="jquery-3.6.0.min.js"></script>
+   <script src="jquery.marquee.min.js"></script>
+   <script src="function.js"></script>
+
+
+
+   <script>
+   const d = new Date(2022, 7, 11, 23, 56);
+   document.getElementById("demo").innerHTML = d;
+   </script>
+
+
+
+
+     </script>
+   </body>
+ </html>

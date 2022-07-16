@@ -4,5 +4,26 @@
 
 
 body {
-background: white;
+background: black;
+outline-color:red
+}
+
+.w3-col {
+  background-color: gray;
+  border:  2px black double;
+  font-size:18px;
+}
+
+
+.w3-content {
+
+}
+
+button {
+  position:sticky;
+  top:0
+}
+
+.topnav-right {
+  float: right;
 }
