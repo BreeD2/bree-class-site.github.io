@@ -2,29 +2,51 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  background: white;
+body,html {
+  margin: auto;
+  background: red;
+  height:100%
 
 
 }
 
-img {
-  max-width:100%;
+
+.img {
+  width:100%;
 }
 
 w3-top {
   font-family: helvetica;
 }
 
+
 .w3-container {
   background-color: blue;
 
 }
 
-.w3-container {
-  background-color: yellow;
+/* Container holding the image and the text */
+.container {
+  position:  relative;
+  text-align: center;
+  color: white;
+
+
 }
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 10%;
+  height:10%;
+  align-content: center;
+  font-size: 70px;
+}
+
 
 .w3-cell row {
   width:50%;
@@ -34,12 +56,7 @@ w3-top {
 header class{
 background-color: yellow;
 }
-h1 {
 
-}
-img {
-
-}
 
 .w3-button {
   background-color: yellow;
@@ -52,6 +69,11 @@ img {
   background-color: #333;
   font-family: helvetica;
 }
+
+
+
+
+
 
 /* Navbar links */
 .topnav a {

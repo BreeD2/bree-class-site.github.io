@@ -26,6 +26,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </head>
 <body>
 
+
+
+<div class="sticky">
+  <a href="..//checkout/index.html"><i class="material-icons"style="color:white;">shopping_cart</i></button></a>
+</div>
+
   <!-- Navbar -->
   <div class="w3-top">
     <div class="w3-bar w3-red w3-card w3-left-align w3-large">
@@ -37,18 +43,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <a href="..//about/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
       <a href="..//contact/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
       <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Email Signup</a>
-      <a href="..//checkout/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Checkout</a>
-
-<div class="topnav-right">
-      <a href="..//shoppingcart/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="material-icons"style="font-size:18px;text-align:center;margin:5%;navbar-right">shopping_cart</i></button></a>
+  </div>
 </div>
 
-    </div>
+
 
     <!-- Navbar on small screens -->
 
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-      <a href="..//shoppingcart/index.html" class="w3-bar-item w3-button w3-padding-large">Shopping Cart<i class="material-icons"style="font-size:18px;text-align:center;margin:5%;navbar-right">shopping_cart</i></a>
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"style="margin-top:9%">
+
       <a href="..//index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
       <a href="..//cateringmenu/index.html" class="w3-bar-item w3-button w3-padding-large">Catering Menu</a>
       <a href="..//locations/index.html" class="w3-bar-item w3-button w3-padding-large">Locations & Hours</a>
@@ -67,7 +70,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
   <!-- Menu Container -->
-  <div class="w3-container w3-black w3-padding-64 w3-xlarge"style="margin-top:-4%;" id="menu">
+  <div class="w3-container w3-black w3-padding-64 w3-xlarge" id="menu">
     <div class="w3-content">
 
       <h1 class="w3-center w3-jumbo" style="margin-top:54px;margin-top:10%">MENU</h1>
@@ -88,220 +91,401 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
           </div>
         </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'desserts');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Desserts</div>
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Desserts
+        </div>
       </a>
-    <a href="javascript:void(0)" onclick="openMenu(event, 'beverages');">
-      <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Beverages
-      </div>
-    </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'beverages');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Beverages
+        </div>
+      </a>
   </div>
 
+
+
       <div id="appetizers" class="w3-container menu w3-padding-32 w3-white w3-blue">
-        <h1><b>Mozzarella Sticks<b><span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+
+
+
+
+        <h1 style="pxfont-size:10px;text-align:left"><b>Mozzarella Sticks</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span>   <span class="w3-right w3-tag w3-black w3-round">$6.50</span></h1>
+          <p style="font-size:15px;text-align:left">Coating cheese strings in breadcrumbs or batter which can be served with either tomato sauce or marinara sauce.</p>
+          <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+
+
+
+
+
+
+        <h1 style="pxfont-size:10px;text-align:left">Breadsticks <span class="w3-right w3-tag w3-dark-grey w3-round">$5.75</span></h1>
+          <p style="font-size:15px;text-align:left">Wheat flour, salt, water, yeast, seasame, butter, and fat or oil.</p>
+
+          <button id="minus"style="margin-right:-1%;position:relative">−</button>
+        <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+
+          <hr>
+
+        <h1 style="pxfont-size:10px;text-align:left"><b>Buffalo Wings</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span>  <span class="w3-right w3-tag w3-black w3-round">$7.00</span></h1>
+          <p style="font-size:15px;text-align:left">Deep fried, un-breaded, and coated in vinegar-based cayenne pepper hot sauce and butter.<br>Classic, Boneless or Both 8 Pc.</br></p>
+        <hr>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+        <h1 style="pxfont-size:10px;text-align:left"><b>Nachos</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span> <span class="w3-right w3-tag w3-black w3-round">$6.75</span></h1>
+        <p style="font-size:15px;text-align:left">Tortilla chips topped with customers' choice of several toppings, such as cheese, guacamole, salsa, sour cream, jalapeños, olives, refried beans, ground beef, chicken, and more.</p>
+        <hr>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+      <h1 style="pxfont-size:10px;text-align:left">Onion Rings <span class="w3-tag w3-red w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.65</span></h1>
+        <p style="font-size:15px;text-align:left;">Cross-sectional "ring" of onion dipped in batter or bread crumbs and then deep fried.</p>
+        <hr>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+      <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <h1 style="pxfont-size:10px;text-align:left">Chicken Pasta <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$7.05</span></h1>
+        <p style="font-size:15px;text-align:left">Grilled chicken, penne in Alfredo sauce, topped with chile spices and several vegetables.</p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
+        <h1 style="pxfont-size:10px;text-align:left">Honey Chilli Potato<span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$4.95</span></h1>
+        <p style="font-size:15px;text-align:left;">Potato, Dry Red Chilli, Honey, Light Soy Sauce, & Bell Peppers. </p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
         <hr>
 
-        <h1><b>Breadsticks</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
-        <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
-        <hr>
-
-        <h1><b>Buffalo Wings</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p><a name="chapter4"></a>
-        <hr>
-
-        <h1><b>Nachos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
-        <hr>
-
-        <h1><b>Onion Rings</b> <span class="w3-tag w3-red w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
-        <hr>
-
-        <h1><b>Bacon Rings</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
-
-        <h1><b>Chilli Prawns</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
-
-        <h1><b>Chicken Pasta</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
-        <h1><b>Seekh Kebabs</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
-        <h1><b>Honey Chilli Potato</b> <span class="w3-tag w3-grey w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
       </div>
+
 
 
 
 
 
       <div id="entrées" class="w3-container menu w3-padding-32 w3-white w3-font-size">
-        <h1><b>Hamburger</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
-        <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+        <h1 style="pxfont-size:10px;text-align:left"<b>Hamburger</b></span> <span class="w3-right w3-tag w3-dark-grey w3-round">$3.99</span></h1>
+        <p style="font-size:15px;text-align:left">A round patty of ground beef, fried or grilled and typically served on a bun or roll and garnished with various condiments.
+</p>
+<button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+<hr>
+
         <hr>
-        <h1><b>Cheeseburger</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
-        <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
-        <h1><b>Crispy Chicken Sandwich</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
-        <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+        <h1 style="pxfont-size:10px;text-align:left"<h1><b>Cheeseburger</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span> <span class="w3-right w3-tag w3-dark-red w3-round">$4.25</span></h1>
+        <p style="font-size:15px;text-align:left">A hamburger with a slice of cheese on it.
+          <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+</p>
+
         <hr>
-        <h1><b>Cheesesteak</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
-        <p class="w3-text-grey">Ravioli filled with cheese</p>
+        <h1 style="pxfont-size:10px;text-align:left"><b>Crispy Chicken Sandwich</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span> <span class="w3-right w3-tag w3-dark-red w3-round">$3.99</span></h1>
+        <p style="font-size:15px;text-align:left">A sandwich that typically consists of crispy and juicy boneless, skinless chicken breast or thigh served between slices of bread.</p>
+
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
         <hr>
 
-        <h1><b>Chicken & Waffles</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
-        <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+        <hr>
+        <hr>
+        <h1 style="pxfont-size:10px;text-align:left"<b>Cheesesteak</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$3.99</span></h1>
+          <p style="font-size:15px;text-align:left;">A sandwich containing thin-sliced sautéed beef, melted cheese, and typically sautéed onions, served in a long roll.
+</p>
+<button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+<hr>
+
         <hr>
 
-        <h1><b>Hot Dogs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+        <h1 style="pxfont-size:10px;text-align:left"<b>Chicken & Waffles</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.75</span></h1>
+          <p style="font-size:15px;text-align:left;">A dish combining waffles, a breakfast food, with fried chicken.</p>
+        <hr>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+      <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
 
-        <h1><b>Lasagna</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+        <h1 style="pxfont-size:10px;text-align:left"<b>Hot Dogs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$3.50</span></h1>
+          <p style="font-size:15px;text-align:left">A food consisting of a grilled or steamed sausage served in the slit of a partially sliced bun.></p>
 
-        <h1><b>Chilli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+<hr>
+        <h1 style="pxfont-size:10px;text-align:left"<b>Lasagna</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+        <p style="font-size:15px;text-align:left">A baked dish containing layers of boiled lasagna, and usually cheese, a seasoned sauce of tomatoes, and meat or vegetables.</p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
 
-        <h1><b>Ribs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
 
-        <h1><b>Steak</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+        <h1 style="pxfont-size:10px;text-align:left">Chilli <span class="w3-right w3-tag w3-dark-grey w3-round">$6.50</span></h1>
+        <p style="font-size:15px;text-align:left">A type of spicy stew that typically contains ground meat and chili powder, plus beans and tomato. </p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
 
-        <h1><b>Tacos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
 
-        <h1><b>Chicken Tenders</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+      <h1 style="pxfont-size:10px;text-align:left">Ribs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$27.99</span></h1>
+          <p style="font-size:15px;text-align:left">Barbecue pork ribs, or sometimes beef ribs, which are served with various barbecue sauces.</p>
+          <button id="minus"style="margin-right:-1%;position:relative">−</button>
+        <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+          <hr>
 
-        <h1><b>Fried Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+        <h1 style="pxfont-size:10px;text-align:left"<b>Steak</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$29.99</span></h1>
+      <p style="font-size:15px;text-align:left">A steak, is a meat generally sliced across the muscle fibers, potentially including a bone. </p>
+      <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+      <hr>
 
-        <h1><b>Buffalo Wings</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+        <h1 style="pxfont-size:10px;text-align:left"><b>Cheeseburger</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span><span class="w3-right w3-tag w3-black w3-round">$2.25</span></h1>
+        <p style="font-size:15px;text-align:left">A taco is a traditional Mexican food consisting of a small hand-sized corn- or wheat-based tortilla topped with a filling. </p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+      <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
 
-        <h1><b>Clam Chowder</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+        <h1 style="pxfont-size:10px;text-align:left">Chicken Tenders <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+        <p style="font-size:15px;text-align:left;">They are the little strips of meat that are tenuously attached to the underside of each breast.12 pieces of chicken tenders. </p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+      <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
 
-        <h1><b>Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+        <h1 style="pxfont-size:10px;text-align:left">Fried Chicken <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+      <p style="font-size:15px;text-align:left">Southern fried chicken, is a dish consisting of chicken pieces that have been coated with seasoned flour or batter. </p>
+      <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+      <hr>
 
-        <h1><b>Spaghetti</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-        <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+        <h1 style="pxfont-size:10px;text-align:left"><b>Buffalo Wings</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span> <span class="w3-right w3-tag w3-black w3-round">$12.50</span></h1>
+        <p style="font-size:15px;text-align:left">A deep-fried chicken wings coated in a spicy sauce and served with blue cheese dressing.
+</p>
+<button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+<hr>
+
+        <h1 style="pxfont-size:10px;text-align:left"<b>Clam Chowder</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$6.25</span></h1>
+
+        <p style="font-size:15px;text-align:left">Chowder made with chopped clams, tomatoes, vegetables, and seasonings.</p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
+
+
+
+        <h1 style="pxfont-size:10px;text-align:left"><b>Pizza</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span>   <span class="w3-right w3-tag w3-black w3-round">$3.50</span></h1>
+        <p style="font-size:15px;text-align:left">A dish of Italian origin consisting of a flat, round base of dough baked with a topping of tomato sauce and cheese, typically with added meat or vegetables.</p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
+
+        <h1 style="pxfont-size:10px;text-align:left">Spaghetti <span class="w3-right w3-tag w3-dark-grey w3-round">$12.75</span></h1>
+          <p style="font-size:15px;text-align:left">Pasta made in long, slender, solid strings.
+</p>
+<button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+<hr>
+
 
       </div>
 
 
-
-
-<div id="Sides" class="w3-container menu w3-padding-32 w3-white">
-        <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
-        <p class="w3-text-grey">Ask the waiter</p>
-        <hr>
-
-        <h4><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h4>
-        <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
-        <hr>
-
-        <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
-        <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
-        <hr>
-
-        <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-        <p class="w3-text-grey">Tomatoes and mozzarella</p>
-      </div>
 
   <div id="sides" class="w3-container menu w3-padding-32 w3-white w3-font-size">
 
 
 
-    <h1><b>Baked Beans</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+    <h1 style="pxfont-size:10px;text-align:left">Baked Beans <span class="w3-right w3-tag w3-dark-grey w3-round">$3.80</span></h1>
+      <p style="font-size:15px;text-align:left">Coating cheese strings in breadcrumbs or batter which can be served with either tomato sauce or marinara sauce.</p>
+      <button id="minus"style="margin-right:-1%;position:relative">−</button>
+      <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+      <hr>
+    <h1 style="pxfont-size:10px;text-align:left"><b>Baked Potatoes</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span><span class="w3-right w3-tag w3-black w3-round">$1.56</span></h1>
+  <p style="font-size:15px;text-align:left">Preparation of potato and can be served with fillings, toppings or condiments.</p>
+  <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+  <hr>
+    <h1 style="pxfont-size:10px;text-align:left">Broccoli<span class="w3-right w3-tag w3-dark-grey w3-round">$4.20</span></h1>
+    <p style="font-size:15px;text-align:left">Edible green plant in the cabbage family whose large flowering head, stalk and small associated leaves are eaten as a vegetable.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <hr>
 
-    <h1><b>Baked Potatoes</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+    <h1 style="pxfont-size:10px;text-align:left">Colesaw<span class="w3-right w3-tag w3-dark-grey w3-round">$3.85</span></h1>
+      <p style="font-size:15px;text-align:left">Shredded raw cabbage with salad dressing or condiment.</p>
+      <button id="minus"style="margin-right:-1%;position:relative">−</button>
+      <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+      <hr>
+    <h1 style="pxfont-size:10px;text-align:left">Bread Roll<span class="w3-right w3-tag w3-dark-grey w3-round">$3.50</span></h1>
+        <p style="font-size:15px;text-align: left;">Wheat flour, to dark rolls containing mostly rye flour.</p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+        <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
+      <h1 style="pxfont-size:10px;text-align:left"><b>French Fries</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span><span class="w3-right w3-tag w3-black w3-round">$3.80</span></h1>
+        <p style="font-size:15px;text-align:left"> Batonnet or allumette-cut deep-fried potatoes. </p>
+        <button id="minus"style="margin-right:-1%;position:relative">−</button>
+        <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+        <hr>
 
-    <h1><b>Broccoli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
+    <h1 style="pxfont-size:10px;text-align:left">Green Beans<span class="w3-right w3-tag w3-dark-grey w3-round">$3.80</span></h1>
+    <p style="font-size:15px;text-align:left">Young, unripe fruits of various cultivars of the common bean.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <hr>
+    <h1 style="pxfont-size:10px;text-align:left">Macaroni & Cheese <span class="w3-right w3-tag w3-dark-grey w3-round">$3.80</span></h1>
+    <p style="font-size:15px;text-align:left">Cooked macaroni pasta and a cheese sauce, most commonly cheddar, and can optionally add additional toppings.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <hr>
+  <h1 style="pxfont-size:10px;text-align:left">Mashed Potatoes<span class="w3-right w3-tag w3-dark-grey w3-round">$3.80</span></h1>
+    <p style="font-size:15px;text-align:left">Mashing boiled potatoes, with milk, butter, salt and pepper.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <hr>
+      <h1 style="pxfont-size:10px;text-align:left"><b>Salad</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span><span class="w3-right w3-tag w3-black w3-round">$4.55</span></h1>
+      <p style="font-size:15px;text-align:left">Potatoes, olive oil, flour, spices, and optional additions. </p>
+      <button id="minus"style="margin-right:-1%;position:relative">−</button>
+      <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+      <hr>
 
-    <h1><b>Cauliflower</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-    <h1><b>Colesaw</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-    <h1><b>Bread Roll</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-    <h1><b>French Fries</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-    <h1><b>Steak Fries</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-    <h1><b>Green Beans</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-    <h1><b>Macaroni & Cheese</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-    <h1><b>Mashed Potatoes</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-    <h1><b>Salad</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-    <h1><b>Tater Tots</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-    <p class="w3-text-grey">Tomatoes and mozzarella</p>
-    </div>
+    <h1 style="pxfont-size:10px;text-align:left">Tater Tots<span class="w3-right w3-tag w3-dark-grey w3-round">$4.05</span></h1>
+    <p style="font-size:15px;text-align:left">Potatoes, olive oil, flour, spices, and optional additions. </p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <hr>
+</div>
 
 <div id="kidsmenu" class="w3-container menu w3-padding-32 w3-white w3-font-size">
 
-  <h1><b>Chicken Tenders</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-  <p class="w3-text-grey">Tomatoes and mozzarella</p>
-  </div>
-
-  <h1><b>Burgers</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-  <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-  <h1><b>Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-  <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-  <h1><b>Grilled Cheese</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-  <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-  <h1><b>Chicken Nuggets</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-  <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-  <h1><b>Hot Dogs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-  <p class="w3-text-grey">Tomatoes and mozzarella</p>
-
-  <h1><b>Quesadilla</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-  <p class="w3-text-grey">Tomatoes and mozzarella</p>
-  </div>
-  </div>
-  </div>
+  <h1 style="pxfont-size:10px;text-align:left"><b>Chicken Tenders</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span><span class="w3-right w3-tag w3-black w3-round">$5.25</span></h1>
+  <p style="font-size:15px;text-align: left;">6 chicken tenders with milk, chocolate milk, apple juice or apple juice. </p>
+  <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+  <h1 style="pxfont-size:10px;text-align:left"><b>Hamburger</b> <span class="w3-tag w3-grey w3-round"></span> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.99</span></h1>
+  <p style="font-size:15px;text-align:left">A round patty of ground beef, fried or grilled and typically served on a bun or roll and garnished with various condiments with milk, chocolate milk, apple juice or apple juice.
+</p>
+<button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+  <h1 style="pxfont-size:10px;text-align:left"><b>Cheeseburger</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h1>
+  <p style="font-size:15px;text-align:left">A hamburger with a slice of cheese on it with milk, chocolate milk, apple juice or apple juice.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
 
 
-
-
-
-  </div>
+  <h1 style="pxfont-size:10px;text-align:left"><b>Pizza</b> <span class="w3-tag w3-red w3-round w3-medium">$2.88</span></h1>
+  <p style="font-size:15px;text-align:left">A dish of Italian origin consisting of a flat, round base of dough baked with a topping of tomato sauce and cheese, typically with added meat or vegetables with milk, chocolate milk, apple juice or apple juice.</p>
+  <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+  <h1 style="pxfont-size:10px;text-align:left">Grilled Cheese <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h1>
+<p style="font-size:15px;text-align:left">A toasted sandwich, grilled cheese sandwich, cheese toastie, or grilled cheese with milk, chocolate milk, apple juice or apple juice.</p>
+<button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
 
 
 
 
 
+  <h1 style="pxfont-size:10px;text-align:left"><b>Chicken Nuggets</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span>   <span class="w3-right w3-tag w3-black w3-round">$3.50</span></h1>
+  <p style="font-size:15px;text-align:left">4 or 6 piece chicken nuggets with milk, chocolate milk, apple juice or apple juice.</p>  <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
 
-
-
-  </div>
-
-
-
-
-
+  <h1 style="pxfont-size:10px;text-align:left">Hot Dogs<span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h1>
+  <p style="font-size:15px;text-align:left">A food consisting of a grilled or steamed sausage served in the slit of a partially sliced bun.</p>
+  <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+  <hr>
+  <h1 style="pxfont-size:10px;text-align:left">Quesadilla<span class="w3-right w3-tag w3-dark-grey w3-round">$3.25</span></h1>
+<p style="font-size:15px;text-align:left">Tortilla filled with cheese and often a savory mixture (as of meat and vegetables), folded, and usually fried. with milk, chocolate milk, apple juice or apple juice.</p>
+<button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
 
 </div>
+
+<div id="desserts" class="w3-container menu w3-padding-32 w3-white w3-font-size">
+
+
+
+    <h1 style="pxfont-size:10px;text-align:left">Brownie Sundae<span class="w3-right w3-tag w3-dark-grey w3-round">$10.75</span></h1>
+      <p style="font-size:15px; text-align:left;">Ice cream dessert made up of brownies topped with ice cream and other classic ice cream sundae toppings.</p>
+      <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+      <h1 style="pxfont-size:10px;text-align:left"><b>Chocolate Chip Cookies</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span>   <span class="w3-right w3-tag w3-black w3-round">$3.05</span></h1>
+    <p style="font-size:15px;text-align:left">A drop cookie that features chocolate chips or chocolate morsels as its distinguishing ingredient.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <h1 style="pxfont-size:10px;text-align:left">Creme Brulee<span class="w3-right w3-tag w3-dark-grey w3-round">$8.05</span></h1>
+    <p style="font-size:15px;text-align:left">Burnt cream or Trinity cream, and virtually identical to the original crema catalana.</p>
+
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+    <h1 style="pxfont-size:10px;text-align:left">Apple Cobbler<span class="w3-right w3-tag w3-dark-grey w3-round">$7.95</span></h1>
+    <p style="font-size:15px;text-align:left">Baked apples are topped with a cobbler crust formed of batter, pie crust or baking powder biscuit dough. </p>
+
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+      <h1 style="pxfont-size:10px;text-align:left"><b>Carrot Cake</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span>   <span class="w3-right w3-tag w3-black w3-round">$6.79</span></h1>
+    <p style="font-size:15px;text-align:left">A moist cake containing grated carrot and typically topped with a buttercream or cream cheese icing.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <h1 style="pxfont-size:10px;text-align:left">Strawberry Shortcake <span class="w3-right w3-tag w3-dark-grey w3-round">$6.79</span></h1>
+    <p style="font-size:15px;text-align:left">Shortcakes, particularly layered with strawberries and whipped cream.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+</div>
+<div id="beverages"class="w3-container menu w3-padding-32 w3-white w3-font-size" >
+
+
+      <h1 style="pxfont-size:10px;text-align:left"><b>Coca Cola</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span>   <span class="w3-right w3-tag w3-black w3-round">$1.99</span></h1>
+      <p style="font-size:15px;text-align:left">A carbonated soft drink manufactured by the Coca-Cola Company.</p>
+      <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+      <h1 style="pxfont-size:10px;text-align:left"><b>Sprite</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span>   <span class="w3-right w3-tag w3-black w3-round">$1.99</span></h1>
+    <p style="font-size:15px;text-align:left">A colorless, lemon and lime-flavored soft drink created by The Coca-Cola Company.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <h1 style="pxfont-size:10px;text-align:left">Fanta <span class="w3-right w3-tag w3-dark-grey w3-round">$1.99</span></h1>
+      <p style="font-size:15px;text-align:left">Fruit-flavored carbonated soft drinks</p>
+      <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <h1 style="pxfont-size:10px;text-align:left">Tea<span class="w3-right w3-tag w3-dark-grey w3-round">$2.99</span></h1>
+      <p style="font-size:15px;text-align:left">A drink made by adding hot water to tea leaves or tea bags.</p>
+
+      <button id="minus"style="margin-right:-1%;position:relative">−</button>
+    <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+    <h1 style="pxfont-size:10px;text-align:left">Beer<span class="w3-right w3-tag w3-dark-grey w3-round">$3.99</span></h1>
+    <p style="font-size:15px;text-align:left">An alcoholic drink made from yeast-fermented malt flavored with hops.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+    <h1 style="pxfont-size:10px;text-align:left">Dr. Pepper<span class="w3-right w3-tag w3-dark-grey w3-round">$1.99</span></h1>
+    <p style="font-size:15px;text-align:left">a carbonated soft drink marketed as having a unique flavor. </p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+      <h1 style="pxfont-size:10px;text-align:left"><b>Water</b> <span class="w3-tag w3-red w3-round w3-medium">Popular</span>   <span class="w3-right w3-tag w3-black w3-round">$0.99</span></h1>
+    <p style="font-size:15px;text-align:left">Water that is used in drink or food preparation;</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+    <h1 style="pxfont-size:10px;text-align:left">Sparkling Water<span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h1>
+    <p style="font-size:15px;text-align:left">Water that has been infused with carbon dioxide gas under pressure.</p>
+    <button id="minus"style="margin-right:-1%;position:relative">−</button>
+  <input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+    <h1 style="pxfont-size:10px;text-align:left">Margarita<span class="w3-right w3-tag w3-dark-grey w3-round">$8.25</span></h1>
+    <p style="font-size:15px;text-align:left">A cocktail made with tequila and citrus fruit juice.
+</p>
+<button id="minus"style="margin-right:-1%;position:relative">−</button>
+<input type="number" stylevalue="0"placeholder="0"style="width:10%;text-align:center" id="input"/><button id="plus"style="margin-left:-1%;position:relative">+</button>
+
+</div>
+</div>
+
+
+
+
+
+
+
 
 
 
@@ -338,6 +522,45 @@ function openMenu(evt, menuName) {
 document.getElementById("myLink").click();
 </script>
 
+<script>
+
+$('.like-btn').on('click', function() {
+   $(this).toggleClass('is-active');
+});
+
+$('.minus-btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $input = $this.closest('div').find('input');
+    var value = parseInt($input.val());
+
+    if (value &amp;amp;gt; 1) {
+        value = value - 1;
+    } else {
+        value = 0;
+    }
+
+  $input.val(value);
+
+});
+
+$('.plus-btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $input = $this.closest('div').find('input');
+    var value = parseInt($input.val());
+
+    if (value &amp;amp;lt; 100) {
+        value = value + 1;
+    } else {
+        value =100;
+    }
+
+    $input.val(value);
+});
+
+</script>
+
 
 </body>
 </html>
@@ -356,8 +579,61 @@ document.getElementById("myLink").click();
    document.getElementById("demo").innerHTML = d;
    </script>
 
+<script>
+   $('.like-btn').on('click', function() {
+      $(this).toggleClass('is-active');
+   });
 
+   $('.minus-btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $input = $this.closest('div').find('input');
+    var value = parseInt($input.val());
 
+    if (value &amp;amp;gt; 1) {
+        value = value - 1;
+    } else {
+        value = 0;
+    }
+
+  $input.val(value);
+
+});
+
+$('.plus-btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $input = $this.closest('div').find('input');
+    var value = parseInt($input.val());
+
+    if (value &amp;amp;lt; 100) {
+        value = value + 1;
+    } else {
+        value =100;
+    }
+
+    $input.val(value);
+});
+</script>
+
+<script>
+const minusButton = document.getElementById('minus');
+const plusButton = document.getElementById('plus');
+const inputField = document.getElementById('input');
+
+minusButton.addEventListener('click', event => {
+  event.preventDefault();
+  const currentValue = Number(inputField.value) || 0;
+  inputField.value = currentValue - 1;
+});
+
+plusButton.addEventListener('click', event => {
+  event.preventDefault();
+  const currentValue = Number(inputField.value) || 0;
+  inputField.value = currentValue + 1;
+});
+
+</script>
 
      </script>
    </body>
