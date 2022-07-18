@@ -5,8 +5,8 @@
 
 body {
 background: white;
-margin:auto;
-margin-top: 10%
+margin-top:100%;
+
 }
 
 div.sticky {
@@ -20,4 +20,17 @@ div.sticky {
   background-color: red;
   padding: 10px;
   font-size: 20px;
+}
+
+
+button,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#alert {
+  display: none;
+  color: red;
+  margin-bottom: 0px;
 }

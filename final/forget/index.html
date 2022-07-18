@@ -2,7 +2,7 @@
 <html lang="en-US">
 <html>
  <head>
-   <title>Final</title>
+   <title>Login</title>
    <center>
     <link rel="icon" type="image/x-icon" href="image/favicon.ico">
    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
@@ -22,7 +22,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 </style>
-</head>
+
 <body>
 
 <!-- Navbar -->
@@ -47,72 +47,86 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
               <a href="..//menu/index.html" class="w3-bar-item w3-button w3-padding-large">Menu</a>
               <a href="..//cateringmenu/index.html" class="w3-bar-item w3-button w3-padding-large">Catering Menu</a>
               <a href="..//locations/index.html" class="w3-bar-item w3-button w3-padding-large">Locations & Hours</a>
+                <a href="..//about/index.html" class="w3-bar-item w3-button w3-padding-large">About</a>
                 <a href="..//contact/index.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
                   <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-padding-large">Email Signup</a>
 
             </div>
           </div>
 
+                  <h1 style="margin-top:13%">Forgot Password</h1>
+
+          <div id="content" class="interior-page">
 
 
-                  <!-- About Section -->
-                   <div class="w3-row w3-padding-64" id="about">
-                     <div class="w3-col m6 w3-padding-large w3-hide-xsmall">
-                      <img src="photos/building2.jpeg" class="w3-padding-bottom 100px w3-round w3-image w3-opacity-min w3-margin-top 20% " alt="Restaurant Building" width="200%" height="100%">
-                     </div>
+<br><br>
 
-                     <div class="w3-col m6 w3-padding-large">
-                       <h1 class="w3-center"style="font-size:47px;padding:0%">About Crystal&Bites</h1>
-
-                       <p class="w3-large" style="padding-right:50px;padding:-30%;font-size:10px;">2824 E Broad is a fully leased historic mixed use property with a prominent corner location in Richmond's oldest neighborhood, Church Hill. Built in 1914, this building was renovated in 2010 with new roofs, HVAC, electrical, plumbing, bathrooms, kitchens, windows, walls, and more.
-                       <p class="w3-large w3-text-black w3-hide-medium" style="padding-right:50px; font-size:15px;">The three (3) renovated apartments, located at both the rear ground floor of the building and on the 2nd floor, offer hardwood floors, granite countertops and stainless steel appliances in the kitchens, new windows throughout, and washer/dryer in each unit.</p>
-                     </div>
-                   </div>
-
-                   <div class="sticky">
-                      <a href="..//checkout/index.html"><i class="material-icons"style="color:white;position: sticky;left:53%">shopping_cart</i></button></a>
-
-                     <a href="..//login/index.html" style="color:white;position:sticky;right:100%">Signup/Login</button></a>
+<label for="email">Email</label>
+<input type="email" id="email" /><br>
 
 
-                   <a href="..//checkout/index.html"style="position: sticky;left:100%;color:white">Rewards</button></a>
+          <form id="password-reset-form">
+            <div id="alert"></div>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" /><br>
+
+            <label for="password-verify">Re-type password</label><br>
+            <input type="password" id="password-verify" />
+            <br>
+<br>
+            <button type="submit">Reset password</button><br>
+          </form>
+
+          <div class="sticky">
+              <a href="..//checkout/index.html"><i class="material-icons"style="color:white;position: sticky;left:53%">shopping_cart</i></button></a>
+
+          <a href="..//login/index.html" style="color:white;position:sticky;right:100%;color:black;background-color:white; padding:1.2%;text-align:center;vertical-align:middle;justify-content:center;">Signup/Login</button></a>
 
 
-          <script>
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function myFunction() {
-          var x = document.getElementById("navDemo");
-          if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-          } else {
-            x.className = x.className.replace(" w3-show", "");
-          }
-        }
-        </script>
-
-        </body>
-        </html>
+          <a href="..//rewards/index.html"style="position: sticky;left:100%;color:white">Rewards</button></a>
 
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.userfront.com/core.js"></script>
 
-           <script src="jquery-3.6.0.min.js"></script>
-           <script src="jquery.marquee.min.js"></script>
-           <script src="function.js"></script>
+  <script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+var x = document.getElementById("navDemo");
+if (x.className.indexOf("w3-show") == -1) {
+  x.className += " w3-show";
+} else {
+  x.className = x.className.replace(" w3-show", "");
+}
+}
+</script>
 
-
-
-           <script>
-           const d = new Date(2022, 7, 11, 23, 56);
-           document.getElementById("demo").innerHTML = d;
-           </script>
-
-
-
-             </script>
-           </body>
-         </html>
+</body>
+</html>
 
 
 
-           <!DOCTYPE html>
-         <html>
+ <script src="jquery-3.6.0.min.js"></script>
+ <script src="jquery.marquee.min.js"></script>
+ <script src="function.js"></script>
+
+
+
+ <script>
+ const d = new Date(2022, 7, 11, 23, 56);
+ document.getElementById("demo").innerHTML = d;
+ </script>
+
+
+
+   </script>
+ </body>
+</html>
+
+
+
+ <!DOCTYPE html>
+<html>

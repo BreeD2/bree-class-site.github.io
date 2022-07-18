@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en-US">
+<html>
+ <head>
+   <title>Catering Menu</title>
+   <center>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+   <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet"href="style.css">
+<style>
+</style>
+</head>
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="..//index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+      <a href="..//menu/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Menu</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Catering Menu</a>
+      <a href="..//locations/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Locations</a>
+      <a href="..//about/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+      <a href="..//contact/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+      <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Email Signup</a>
+
+    </div>
+
+    <!-- Navbar -->
+      <div class="w3-top">
+        <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="..//index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+          <a href="..//menu/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Menu</a>
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Catering Menu</a>
+          <a href="..//locations/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Locations & Hours</a>
+          <a href="..//about/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+          <a href="..//contact/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+          <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Email Signup</a>
+
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+          <a href="..//index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Menu</a
+          <a href="..//locations/index.html" class="w3-bar-item w3-button w3-padding-large">Locations & Hours</a>
+          <a href="..//about/index.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+            <a href="..//contact/index.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+              <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-padding-large">Email Signup</a>
+
+        </div>
+      </div>
+
+<div class="heading">Catering Menu
+
+</div>
+
+
+
+
+      <div class="w3-row">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Buffalo Wings</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="w3-third w3-container">
+          <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+          <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+        </div>
+      </div>
+
+      <div class="w3-row w3-padding-64">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Chicken Tenders</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="w3-third w3-container">
+          <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+          <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+        </div>
+      </div>
+
+
+
+
+      <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
+    </body>
+    </html>
+
+
+
+       <script src="jquery-3.6.0.min.js"></script>
+       <script src="jquery.marquee.min.js"></script>
+       <script src="function.js"></script>
+
+
+
+       <script>
+       const d = new Date(2022, 7, 11, 23, 56);
+       document.getElementById("demo").innerHTML = d;
+       </script>
+
+
+
+         </script>
+       </body>
+     </html>
+
+
+
+       <!DOCTYPE html>
+     <html>
