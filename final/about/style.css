@@ -4,10 +4,19 @@
 
 
 body {
-background: white;
+background: ghostwhite;
 margin:auto;
 margin-top: 10%
 }
+
+
+
+.border {
+  width: 10%;
+  height:5%;
+  color: black
+}
+
 
 div.sticky {
   position: -webkit-sticky;

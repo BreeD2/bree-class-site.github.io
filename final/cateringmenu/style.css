@@ -4,7 +4,7 @@
 
 
 body,html {
-background-color:khaki;
+background-color:black;
 overflow: visible;
 scroll-behavior: auto;
 margin: auto;
@@ -13,7 +13,13 @@ margin: auto;
 .heading {
   font-size: 50px;
   padding-top: 10%;
-  padding-bottom: 3%
+  padding-bottom: 3%;
+  background-color:black;
+  margin-top: 5%;
+}
+
+.img {
+  border:5px black
 }
 
 

@@ -4,12 +4,24 @@
 
 
 body {
-background: white;
+background: ivory;
 margin: 0%;
 
 
 }
 
+.rewards {
+  color:black;
+  font-size:43px;
+  margin-top:14%
+
+}
+
+.paragraph {
+  color:black;
+  font-size:10px;
+  margin-top: 10%
+}
 
 div.sticky {
   position: -webkit-sticky;
@@ -22,11 +34,4 @@ div.sticky {
   background-color: red;
   padding: 10px;
   font-size: 20px;
-}
-
-
-.rewards {
-  color:black;
-  font-size: 40px;
-  margin-top:10%
 }
