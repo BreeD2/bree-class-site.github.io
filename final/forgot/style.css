@@ -43,6 +43,15 @@ input {
   padding: 5px;
 }
 
+input:hover {
+  background-color: lightgrey
+}
+
+
+
+
+
+
 button,
 input {
   display: block;

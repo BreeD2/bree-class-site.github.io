@@ -4,7 +4,7 @@
 
 
 body {
-background: darkgrey;
+background: lightgrey;
 
 }
 
@@ -35,7 +35,7 @@ a.button {
   padding-top: 7%;
   background-color:grey;
   color:white;
-text-shadow: 2px 2px black;
+
   t
 
 }
@@ -66,7 +66,7 @@ div.sticky {
   box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
   border-radius: 6px;
   color:white;
-text-shadow: 2px 2px black;
+
   display: flex;
   flex-direction: column;
 }
@@ -75,8 +75,8 @@ text-shadow: 2px 2px black;
 .form-popup
 
 button {
-  background-color: darkgrey;
+  background-color: black;
   margin-top: 5%;
   color:white;
-text-shadow: 2px 2px black;
+
 }
