@@ -4,10 +4,12 @@
 
 
 body {
-background: white;
+background: lightgrey;
 margin-top:100%;
 
 }
+
+
 
 div.sticky {
   position: -webkit-sticky;
@@ -21,7 +23,25 @@ div.sticky {
   padding: 10px;
   font-size: 20px;
 }
+label {
+  font-size:15px;
+}
 
+button {
+  background-color:white
+}
+
+button:hover{
+  background-color:red;
+  color:white
+}
+
+input {
+  background-color:white;
+  width:30%;
+  height:100%;
+  padding: 5px;
+}
 
 button,
 input {
