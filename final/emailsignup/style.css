@@ -12,7 +12,7 @@ background: lightgrey;
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border: 3px solid black; /* Gray border */
+  border: 3px solid white; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 25px; /* Add a top margin */
@@ -72,6 +72,8 @@ div.sticky {
 }
 
 
+
+
 .form-popup
 
 button {
@@ -79,4 +81,9 @@ button {
   margin-top: 5%;
   color:white;
 
+}
+
+
+button:hover{
+  cursor:pointer;
 }

@@ -11,8 +11,14 @@ body,html {
 }
 
 
+a href:hover {
+  color:white
+}
+
+
 .img {
   width:100%;
+
 }
 
 w3-top {
