@@ -109,7 +109,24 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
 
+<p>Date/Time: <span id="datetime"></span></p>
 
+<p>Date/Time:</p>
+<p id="datetime"></p>
+
+<p>Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+
+<p>Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+</script>
 
 <!-- Second Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container w3-black w3-panel topbar w3-border-white">
