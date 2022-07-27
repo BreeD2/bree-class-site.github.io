@@ -34,7 +34,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="..//menu/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Menu</a>
     <a href="..//cateringmenu/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white-font-family-helvetica">Catering Menu</a>
     <a href="..//locations/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Locations & Hours</a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">About</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
     <a href="..//contact/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
     <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Email Signup</a>
 
@@ -57,7 +57,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
                   <h1 style="margin-top:13%">Forgot Password</h1>
 
-          <div id="content" class="interior-page">
+          <div id="content" class="interior-page"style="background-color:white">
 
 
 <br>
@@ -68,13 +68,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <input type="email" id="email" />
 
 
-          <form id="password-reset-form">
+          <form id="password-reset-form" >
             <div id="alert"></div>
 <br>
 
-            <button type="submit">Reset password</button>
+            <a href="..//reset/index.html"<button type="submit" style="background-color:black;color:white;padding:8px;">Reset password</button></a>
           </form>
 
+<hr>
           <h1>Change Password</h1>
 
           <form method="post" action="">
@@ -84,15 +85,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <br>
           <label for="confirmPassword">Confirm Password:</label>
           <input type="password" id="confirmPassword" name="confirmPassword" title="Confirm new password" />
+
 <br>
           <label for="token">Password Token:</label>
           <input type="text" id="token" name="token" title="Password Token" />
-<br>
+<br><br>
 
 
-          <p class="form-actions">
-          <input type="submit" value="Change Password" title="Change password" />
-          </p>
+              <a href="..//change/index.html"style="background-color:black;color:white;padding:9px">Change password</a>
 
           </form>
 <br><br><br><br><br>
@@ -105,6 +105,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
   <a href="..//rewards/index.html"style="position: sticky;left:85%;color:white">Rewards</button></a>
 </div>
+
+
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-red">
@@ -137,7 +139,17 @@ if (x.className.indexOf("w3-show") == -1) {
 }
 }
 </script>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
 
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 </body>
 </html>
 

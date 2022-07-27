@@ -5,7 +5,9 @@
 
 body {
 background: lightgrey;
-margin-top:100%;
+margin: 0%
+
+
 
 }
 
@@ -25,10 +27,12 @@ div.sticky {
 }
 label {
   font-size:15px;
+
 }
 
 button {
-  background-color:white
+  background-color:red;
+  outline-offset: inherit;
 }
 
 button:hover{
@@ -41,14 +45,17 @@ input {
   width:30%;
   height:100%;
   padding: 5px;
+
 }
 
 input:hover {
-  background-color: lightgrey
+  background-color: ghostwhite
 }
 
 
-
+a:link:hover {
+  background-color: red
+}
 
 
 

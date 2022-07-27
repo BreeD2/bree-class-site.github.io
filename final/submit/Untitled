@@ -66,23 +66,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 <form action="/action_page.php" class="form-container">
                   <h1 style="font-size:50px;  ">Email Signup</h1>
 
-                  <label for="firstname"><b>First Name *Required*</b></label>
+                  <label for="firstname"><b>First Name</b></label>
                   <input type="text" placeholder="First Name" name="firstname" required>
-                  <label for="lastname"><b>Last Name *Required*</b></label>
+                  <label for="lastname"><b>Last Name</b></label>
                   <input type="text" placeholder="Last Name" name="lastname" required>
-                  <label for="emailaddress"><b>Email Address *Required*</b></label>
+                  <label for="emailaddress"><b>Email Address</b></label>
                   <input type="text" placeholder="Email Address" name="emailaddress" required>
-                  <label for="phonenumber"><b>Phone Number *Optional*</b></label>
+                  <label for="phonenumber"><b>Phone Number</b></label>
                   <input type="text"style="background-color:white" placeholder="Phone Number" name="phonenumber" optional>
 
 
-                  <br><br>
 
-
-
-
-
-                  <a href="..//submit/index.html"class="button"style="background-color:dimgrey;color:white;padding:5px;border:2px solid white;margin-top:5%">Click here to signup</a>
+                    <input type="submit" value="Submit">
 
                 </form>
               </div>

@@ -56,7 +56,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
             </div>
           </div>
 
-          <form action="action_page.php" method="post">
+          <form action="..//loginpart2/index.html" method="post">
   <div class="imgcontainer">
     <img src="img_avatar2.png" alt="Avatar" class="avatar">
   </div>
@@ -80,7 +80,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
   <div class="container">
-    <button type="button" class="cancelbtn">Cancel</button><br><br>
+
     <span class="psw" style="margin-top:-0%;">Forgot <a href="..//forgot/index.html">password?</a></span>
 <br>
     <a href="..//signup/index.html"style="color:black">New member, sign up here.</a>
@@ -146,6 +146,68 @@ if (x.className.indexOf("w3-show") == -1) {
  </body>
 </html>
 
+<script type="text/javascript">
+
+var loginName = "";
+var userid = _spPageContextInfo.userId;
+GetCurrentUser();
+
+function GetCurrentUser() {
+var requestUri = _spPageContextInfo.webAbsoluteUrl + "/_api/web/getuserbyid(" + userid + ")";
+
+var requestHeaders = { "accept" : "application/json;odata=verbose" };
+
+$.ajax({
+  url : requestUri,
+  contentType : "application/json;odata=verbose",
+  headers : requestHeaders,
+  success : onSuccess,
+  error : onError
+  });
+}
+
+function onSuccess(data, request) {
+    var loginName = data.d.Title;
+    alert("Hello " + loginName);
+
+    // to set the "hello username" into the page
+    document.getElementById("id").innerHTML = "Hello " + loginName;
+    }
+
+function onError(error) {
+  alert(error);
+  }
+
+</script>
+
+<script>
+
+// Getting current user detail
+function getCurrentUser() {
+    try {
+        var clientContext = new SP.ClientContext.get_current();
+        var tempcurrentUser = clientContext.get_web().get_currentUser();
+        clientContext.load(tempcurrentUser);
+        clientContext.executeQueryAsync(function () {
+            var index = tempcurrentUser.get_loginName().indexOf('|') + 1;
+            var currentUser = tempcurrentUser.get_loginName().substring(index);
+            alert('Hello ' + currentUser); // Here you will get name of the user
+
+        }, queryFailure);
+    }
+    catch (err) {
+        queryFailure();
+    }
+}
+
+function queryFailure () {
+    alert('error');
+}
+
+//You can call the function like this
+SP.SOD.executeFunc('sp.js', 'SP.ClientContext', getCurrentUser);
+
+</script>
 
 
  <!DOCTYPE html>

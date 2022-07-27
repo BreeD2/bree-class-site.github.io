@@ -2,9 +2,10 @@
 <html lang="en-US">
 <html>
  <head>
-   <title>Login</title>
+   <title>Signup</title>
+    <link rel="icon" type="image/x-icon" href="..//images/favicon.ico"/>
    <center>
-    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+
    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 <link rel="stylesheet"href="style.css">
@@ -22,7 +23,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 </style>
-
+</head>
 <body>
 
 <!-- Navbar -->
@@ -33,7 +34,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="..//menu/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Menu</a>
     <a href="..//cateringmenu/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white-font-family-helvetica">Catering Menu</a>
     <a href="..//locations/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Locations & Hours</a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">About</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
     <a href="..//contact/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
     <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Email Signup</a>
 
@@ -51,86 +52,60 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 <a href="..//contact/index.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
                   <a href="..//emailsignup/index.html" class="w3-bar-item w3-button w3-padding-large">Email Signup</a>
 
+
             </div>
           </div>
 
-          @{
-newPassword = Request["newPassword"];
-confirmPassword = Request["confirmPassword"];
-token = Request["token"];
-if IsPost
-{
-  // input testing is ommitted here to save space
-  retunValue = ResetPassword(token, newPassword);
-}
-}
-<h1>Change Password</h1>
-
-<form method="post" action="">
-
-<label for="newPassword">New Password:</label>
-<input type="password" id="newPassword" name="newPassword" title="New password" />
-
-<label for="confirmPassword">Confirm Password:</label>
-<input type="password" id="confirmPassword" name="confirmPassword" title="Confirm new password" />
-
-<label for="token">Pasword Token:</label>
-<input type="text" id="token" name="token" title="Password Token" />
-
-<p class="form-actions">
-<input type="submit" value="Change Password" title="Change password" />
-</p>
-
-</form>
-          <div class="sticky">
-              <a href="..//checkout/index.html"><i class="material-icons"style="color:white;position: sticky;left:53%">shopping_cart</i></button></a>
-
-          <a href="..//login/index.html" style="color:white;position:sticky;right:100%;color:black;background-color:white; padding:1.2%;text-align:center;vertical-align:middle;justify-content:center;">Signup/Login</button></a>
 
 
-          <a href="..//rewards/index.html"style="position: sticky;left:100%;color:white">Rewards</button></a>
+
+<br><br><br>
+<div class="sticky">
+      <a href="..//checkout/index.html"style="font-size:20px;color:white;position:sticky;left:45%;">Checkout</button></a>
+
+  <a href="..//login/index.html" style="color:white;position:sticky;right:85%">Signup/Login</button></a>
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://cdn.userfront.com/core.js"></script>
-
-  <script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-var x = document.getElementById("navDemo");
-if (x.className.indexOf("w3-show") == -1) {
-  x.className += " w3-show";
-} else {
-  x.className = x.className.replace(" w3-show", "");
-}
-}
-</script>
+<a href="..//rewards/index.html"style="position: sticky;left:85%;color:white">Rewards</button></a>
+</div>
 
 </body>
 </html>
 
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
+    </body>
+    </html>
+
+<!--Body~~!>
+<!~~ Tabs -->
 
 
- <script src="jquery-3.6.0.min.js"></script>
- <script src="jquery.marquee.min.js"></script>
- <script src="function.js"></script>
+
+
+       <script src="jquery-3.6.0.min.js"></script>
+       <script src="jquery.marquee.min.js"></script>
+       <script src="function.js"></script>
 
 
 
- <script>
- const d = new Date(2022, 7, 11, 23, 56);
- document.getElementById("demo").innerHTML = d;
- </script>
+       <script>
+       const d = new Date(2022, 7, 11, 23, 56);
+       document.getElementById("demo").innerHTML = d;
+       </script>
 
 
 
-   </script>
- </body>
-</html>
-
-
-
- <!DOCTYPE html>
-<html>
+         </script>
+       </body>
+     </html>
