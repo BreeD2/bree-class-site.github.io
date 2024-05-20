@@ -43,13 +43,14 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Overwrite default styles of hr */
 hr {
-  border: 1px solid #f1f1f1;
+  border: 1px solid #f8f8f8;
   margin-bottom: 25px;
 }
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #04AA6D;
+  background-color: black;
+  text-decoration: none;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -80,5 +81,4 @@ a {
  color:red;
 }
 
-</style>
-</head>
+
